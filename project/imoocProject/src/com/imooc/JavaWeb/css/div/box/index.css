@@ -1,0 +1,21 @@
+div{
+    width: 200px;
+    height: 80px;
+    overflow: hidden;
+    margin-left: 50px;
+}
+#div1{
+    background-color: aqua;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+#div2{
+    background-color: pink;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+*{
+    margin: 0 0 0 0;
+}

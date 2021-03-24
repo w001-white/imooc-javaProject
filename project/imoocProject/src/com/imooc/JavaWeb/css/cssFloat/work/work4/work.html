@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <style>
+            #div1 {
+                background: pink;
+                /*float: left;*/
+            }
+
+            #div2 {
+                background: red;
+                float: left;
+                width: 100px;
+                height: 100px;
+                margin-bottom: 10px;
+            }
+
+            #div3 {
+                background: blue;
+                float: left;
+                width: 100px;
+                height: 100px;
+            }
+
+            #div4 {
+                background: white;
+                float: left;
+                width: 100px;
+                height: 100px;
+                clear: both;
+            }
+
+            #div5 {
+                background: black;
+                width: 100px;
+                height: 100px;
+                clear: both;
+            }
+
+            .clearDir::after {
+                content: "";
+                visibility: hidden;
+                height: 0px;
+                display: block;
+                clear: both;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div id="div1">
+            <div id="div2"></div>
+            <div class="clearDir"></div>
+            <div id="div3"></div>
+            <div class="clearDir"></div>
+            <div id="div4"></div>
+            <div id="div5"></div>
+        </div>
+    </body>
+</html>

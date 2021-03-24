@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <script type="text/javascript" src="index.js"></script>
+    </head>
+    <body onload="ymd(),initLogo()">
+        <form>
+            <select name="yyyy" id="yyyy" onchange="selectYmd2()"></select>年
+            <select name="mm" id="mm" onchange="selectYmd2()"></select>月
+            <select name="dd" id="dd"></select>日
+            <p></p>
+            <input type="button" value="删除列表框条目" onclick="deleteSelect()">
+            <br>
+            <img src="img/1.gif" id="img">
+            <select id="logo" onchange="selectLogo()"></select>
+        </form>
+    </body>
+</html>

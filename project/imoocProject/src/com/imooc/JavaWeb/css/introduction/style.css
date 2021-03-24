@@ -1,0 +1,27 @@
+p {
+    background-color: green;
+
+    font-size: 50px;
+
+}
+
+.p1 {
+    background-color: bisque;
+    font-family: 隶书;
+    font-size: 25px;
+}
+
+.p2 {
+    background-color: beige;
+    font-size: 20px;
+    text-align: center;
+    color:pink ;
+}
+
+body {
+    background-color: darkseagreen;
+    background-image: url("../../introductiontHTML/img/6.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*background-position: right;*/
+}

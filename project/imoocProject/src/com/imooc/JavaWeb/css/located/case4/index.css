@@ -1,0 +1,29 @@
+#div1{
+    width: 1903px;
+    height: 4033px;
+    background-color: salmon;
+    position: relative;
+    left: 100px;
+}
+#div2 {
+    width: 100px;
+    height: 150px;
+    position: fixed;
+    top: 42%;
+    left: -20px;
+}
+.img1{
+    width: 200px;
+    height: 300px;
+}
+#div3 {
+    width: 500px;
+    height: 310px;
+    position: fixed;
+    top: 42%;
+    right: -10px;
+}
+.img2{
+    width: 500px;
+    height: 310px;
+}

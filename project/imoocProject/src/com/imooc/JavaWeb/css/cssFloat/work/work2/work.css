@@ -1,0 +1,23 @@
+div {
+    background-color: pink;
+    float: left;
+    /*overflow: auto;*/
+}
+
+img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*.div1 {*/
+/*    float: left;*/
+/*    overflow: auto;*/
+/*}*/
+
+p {
+    margin-top: -10px;
+    margin-bottom: 2px;
+    text-align: center;
+}

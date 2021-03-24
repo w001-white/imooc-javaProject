@@ -1,0 +1,8 @@
+/*p::first-letter{*/
+/*    background-color: aqua;*/
+/*}*/
+
+p::selection{
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,21 @@
+#div1{
+    background-color: yellow;
+    border:1px solid green;
+    /*解决崩塌一：*/
+    overflow: auto;
+    /*解决崩塌二：*/
+    /*display: table;*/
+    /*clear: both;*/
+}
+#div2{
+    background-color:red ;
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+#div3{
+    background-color:blue ;
+    height: 100px;
+    width: 500px;
+    float: left;
+}

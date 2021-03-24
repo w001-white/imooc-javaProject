@@ -1,0 +1,14 @@
+#div1 {
+    background-color: red;
+    width: 100px;
+    height: 1000px;
+}
+
+#div2 {
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}

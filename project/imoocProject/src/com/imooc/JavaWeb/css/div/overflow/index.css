@@ -1,0 +1,25 @@
+#div1{
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    overflow: scroll;
+    outline:dashed;
+}
+
+#div2{
+    position: absolute;
+    top: 150px;
+    left: 350px;
+}
+
+.id{
+    /*去掉文本框的边框*/
+    border: none;
+    /*加上下划线*/
+    border-bottom: solid;
+    /*去除选定时的边框轮廓*/
+    outline: none;
+}
